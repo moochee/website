@@ -4,8 +4,11 @@
   "description": "The website of Moochee app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/main.js"
   },
-  "author": "",
-  "license": "MIT"
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
