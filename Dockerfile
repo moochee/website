@@ -1,4 +1,5 @@
 FROM nginx:alpine
-COPY index.html /usr/share/nginx/html/index.html
-COPY style.css /usr/share/nginx/html/style.css
-# COPY static-html-directory /usr/share/nginx/html
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+COPY ./* ./
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
