@@ -1,208 +1,129 @@
+<!-- MVP.css quickstart template: https://github.com/andybrewer/mvp/ -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/mvp.css">
 
-  <title>Moochee</title>
-  <meta content="Icebreaking made simple!" name="description">
-  <meta content="Moochee" name="keywords">
+    <meta charset="utf-8">
+    <meta name="description" content="Fun Quiz Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <title>Moochee Quiz</title>
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <a href="/" class="logo">
-        <img src="assets/img/logo.png" alt="" class="img-fluid">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="#features">Features</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="https://app.moochee.us">Log in</a></li>
-          <li><a class="getstarted scrollto" href="https://app.moochee.us">Try for free</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
-      <h1>Icebreaking game made simple!</h1>
-      <h2>Ever feel bored of running meetings, classes with people disengaged? Start a fun quiz in seconds, and invite people to play with any device.</h2>
-      <a href="https://app.moochee.us" class="btn-get-started scrollto">Try first game free</a>
-      <img src="assets/img/hero-img.png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
-    </div>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features" data-aos="fade-up">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Features</h2>
-        </div>
-
-        <div class="row content">
-          <div class="col-md-5" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/features-1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
-            <h3>Start your game in seconds.</h3>
-            <p class="fst-italic">
-              Click any existing quiz to start the game, and share the QR code with your audience.
-            </p>
+    <header>
+        <nav>
+            <a href="/"><img alt="Logo" src="./assets/img/logo.png" height="70"></a>
             <ul>
-              <li><i class="bi bi-check"></i> Pre-defined quizzes.</li>
-              <li><i class="bi bi-check"></i> Preview questions inside.</li>
-              <li><i class="bi bi-check"></i> Shareable link for PC/Laptop.</li>
+                <li>Features</li>
+                <li><a href="#section-1">Pricing</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Try for free</a></li>
             </ul>
-          </div>
-        </div>
-
-        <div class="row content">
-          <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/features-2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-            <h3>Play with any device</h3>
-            <p class="fst-italic">
-              Scan the QR code with your mobile camera, and enter your nick name to play.
-            </p>
+        </nav>
+        <h1>Page Heading with <i>Italics</i> and <u>Underline</u></h1>
+        <p>Page Subheading with <mark>highlighting</mark></p>
+        <br>
+        <p><a href="#"><i>Italic Link Button</i></a><a href="#"><b>Bold Link Button &rarr;</b></a></p>
+    </header>
+    <main>
+        <hr>
+        <section id="section-1">
+            <header>
+                <h2>Section Heading</h2>
+                <p>Section Subheading</p>
+            </header>
+            <aside>
+                <h3>Card heading</h3>
+                <p>Card content*</p>
+                <p><small>*with small content</small></p>
+            </aside>
+            <aside>
+                <h3>Card heading</h3>
+                <p>Card content <sup>with notification</sup></p>
+            </aside>
+            <aside>
+                <h3>Card heading</h3>
+                <p>Card content</p>
+            </aside>
+        </section>
+        <hr>
+        <section>
+            <blockquote>
+                "Quote"
+                <footer><i>- Attribution</i></footer>
+            </blockquote>
+        </section>
+        <hr>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Col A</th>
+                        <th>Col B</th>
+                        <th>Col C</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Row 1</td>
+                    <td>Cell A1</td>
+                    <td>Cell B1</td>
+                    <td>Cell C1</td>
+                </tr>
+                <tr>
+                    <td>Row 2</td>
+                    <td>Cell A2</td>
+                    <td>Cell B2</td>
+                    <td>Cell C2</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <article>
+            <h2>Left-aligned header</h2>
+            <p>Left-aligned paragraph</p>
+            <aside>
+                <p>Article callout</p>
+            </aside>
             <ul>
-              <li><i class="bi bi-check"></i> Auto pick cute avatar.</li>
-              <li><i class="bi bi-check"></i> Remember your nick name.</li>
-              <li><i class="bi bi-check"></i> No sign-up required.</li>
+                <li>List item 1</li>
+                <li>List item 2</li>
             </ul>
-          </div>
+            <figure>
+                <img alt="Stock photo" src="https://via.placeholder.com/1080x500?text=Amazing+stock+photo">
+                <figcaption><i>Image caption</i></figcaption>
+            </figure>
+        </article>
+        <hr>
+        <div>
+            <details>
+                <summary>Expandable title</summary>
+                <p>Revealed content</p>
+            </details>
+            <details>
+                <summary>Another expandable title</summary>
+                <p>More revealed content</p>
+            </details>
+            <br>
+            <p>Inline <code>code</code> snippets</p>
+            <pre>
+                <code>
+// preformatted code block
+                </code>
+            </pre>
         </div>
-
-        <div class="row content">
-          <div class="col-md-5" data-aos="fade-right">
-            <img src="assets/img/features-3.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5" data-aos="fade-left">
-            <h3>Build your own quizzes</h3>
-            <p>Not able to find any interesting quiz? You can create your own in minutes.</p>
-            <ul>
-              <li><i class="bi bi-check"></i> Log in through gmail.</li>
-              <li><i class="bi bi-check"></i> WYSIWYG editor.</li>
-              <li><i class="bi bi-check"></i> Option to share with others.</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Or try it as long as you want, for free</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="box">
-              <h3>Trial</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>3 player limit</li>
-                <li>3 quizzes</li>
-                <li>100 games per month</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="https://app.moochee.us" class="btn-buy">Try for free</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="box featured">
-              <h3>Premium</h3>
-              <h4><sup>$</sup>6<span> / month</span></h4>
-              <ul>
-                <li>Up to 100 players</li>
-                <li>Unlimited quizzes</li>
-                <li>Unlimited games</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="https://buy.stripe.com/aEU4hnbU0e9da2c8ww" class="btn-buy">Subscribe</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Moochee</span></strong>. All Rights Reserved
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-
-  <!-- GoatCounter analytics-->
-  <script data-goatcounter="https://moochee.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    </main>
+    <footer>
+        <hr>
+        <p>
+            <small>Contact info</small>
+        </p>
+    </footer>
 </body>
 
 </html>
