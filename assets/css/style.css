@@ -7,6 +7,23 @@ header {
     padding: 0px;
 }
 
+/*Desktop Query*/
+@media only screen and (min-width: 768px) {
+    img {
+        max-width: 15dvw;
+        height: auto;
+    }
+}
+  
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+    img {
+        padding-top: 1dvh;
+        max-width: 30dvw;
+        height: auto;
+    }
+}
+
 h1 {
     margin: 0;
 }
