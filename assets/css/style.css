@@ -24,6 +24,11 @@ header {
     }
 }
 
+#demo {
+    border: 1px solid #ccc; /* You can adjust the border thickness and color */
+    border-radius: 5px;    /* Optional: Add rounded corners */
+}
+
 h1 {
     margin: 0;
 }
