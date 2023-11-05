@@ -8,7 +8,7 @@ if dokku apps:exists www; then
 fi
 dokku apps:create www
 dokku certs:add www /home/dokku/server.crt /home/dokku/server.key
-dokku proxy:ports-set www http:80:80 https:443:80
+dokku ports:set www http:80:80 https:443:80
 
 git remote add dokku dokku@moochee.us:www || git remote set-url dokku dokku@moochee.us:www
 git push dokku main
